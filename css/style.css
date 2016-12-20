@@ -1,0 +1,216 @@
+html, body, main, aside, header, footer, div, img, p, nav, ul, li, a, h1, h2, h3, h4, h5, h6, form, input, textarea {
+margin: 0;
+padding: 0;
+}		
+/* index.html page */
+#index-background {
+width: 100%;
+}
+#entbut {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+width: 10%;
+}
+#topr {
+position: absolute;
+top: 0;
+right: 0;
+width: 40%;
+}
+#toprm {
+position: absolute;
+top: 100px;
+left: 0;
+width: 40%;
+}
+#topbr {
+position: absolute;
+top: 60%;
+right: 50px;
+width: 20%;
+}
+/* Content pages body */
+.contentpages {
+background-image: url("../images/dark-brick-wall-background.jpg");
+}
+/* Content pages container */
+#container {
+position: absolute;
+width: 80%;
+height: 695px;
+left: 10%;
+background-image: url("../images/dark-canvas-background.png");
+}
+/* Content pages header */
+.h-contentpages {
+position: absolute;
+background-image: url("../images/site-logo.png");
+background-repeat: no-repeat;
+width: 100%;
+height: 170px;
+}
+/* Content pages header menu */
+.hmenu {
+text-align: right;
+}
+.hmenu a {
+text-decoration: none;
+color: #FDA31F;
+font-family: "Arial Black", Gadget, sans-serif;
+font-size: 15px;
+padding: 20px 10px;
+border: 1px;
+}
+.hmenu a:hover {
+background-color: red;
+}
+.hmenu li {
+display: inline-block;
+padding-top: 10px;
+padding-bottom: 10px;
+position: relative;
+}
+.hmenu li ul {
+position: absolute;
+top: 100%;
+display: none;
+text-align: left;
+}
+.hmenu li:hover>ul { 
+position: absolute;
+display: block;
+width: 130px;
+}
+/* Content pages sidebar */
+aside {
+position: absolute;
+color: #cc0000;
+width: 15%;
+height: 500px;
+top: 190px;
+background-image: url("../images/vector-old-paper.jpg");
+border-radius: 0 25px 25px 0;
+padding-left: 10px;
+}
+aside ul {
+list-style: none;
+}
+
+aside h2, h4, li {
+padding: 5px;
+}
+/* Content pages main */
+#content-pages {
+position: absolute;
+width: 84%;
+height: 670px;
+top: 190px;
+right: 0;
+}
+#content-pages img {
+border-radius: 75px;
+position: relative;
+}
+/* Home page */
+#home-content {
+position: relative;
+width: 85%;
+left: 10%;
+}
+#home-content img {
+margin: 10px;
+width: 25%;
+}
+/* Discography page */
+#m-albums a {
+text-decoration: none;
+color: #FDA31F;
+font-size: 20px;
+}
+.er-albums {
+background-image: url("../images/paper.gif");
+color: black;
+margin: 10px 0 10px 0;
+padding: 10px;
+width: 80%;
+border-radius: 25px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+/* Gallery page */
+#video-container {
+position: absolute;
+width: 95%;
+right: 0;
+background-image: url("../images/dark-canvas-background.png");
+}
+.video {
+background-image: url("../images/paper.gif");
+color: black;
+margin: 20px 0 20px 0;
+padding: 20px;
+width: 80%;
+border-radius: 25px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+iframe {
+border-radius: 10px;
+}
+/* Become-fan page */
+.r-form {
+position: absolute;
+background-image: url("../images/paper.gif");
+color: black;
+margin: 20px 0 20px 0;
+padding: 20px;
+width: 60%;
+border-radius: 25px;
+left: 20%;
+}
+form {
+margin: auto;
+position: relative;
+width: 80%;
+font-family: Tahoma, Geneva, sans-serif;
+font-size: 14px;
+font-style: italic;
+line-height: 24px;
+font-weight: bold;
+color: #FDA31F;
+text-decoration: none;
+border-radius: 10px;
+padding: 30px;
+border: inset 1px solid #333;
+}
+input {
+width: 60%;
+display: block;
+border: 1px solid #999;
+}
+.input-inline {
+display: inline;
+width: 10%;
+}
+textarea {
+width: 60%;
+height: 100px;
+display: block;
+}
+/* Under construction pages */
+#under-construction {
+position: absolute;
+width: 100%;
+right: 0;
+}
+#under-construction img {
+border-radius: 75px;
+position: relative;
+width: 100%;
+}
